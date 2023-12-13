@@ -1,0 +1,67 @@
+.navbar {
+    background-color: rgba(192, 192, 150, 0.89);
+    padding: 0px 20px;
+    box-shadow: 0 4px 8px rgba(255, 136, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    height: 7.8em;
+    margin-right: 10px;
+}
+
+.website-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.user-info {
+    margin-right: 20px;
+}
+
+.btn {
+    box-shadow: 0 2px 4px rgba(0, 0, 255, 0.1);
+    border-radius: 20px;
+}
+
+.email-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.email-content {
+    margin-bottom: 5px;
+}
+
+.timestamp {
+    text-align: right;
+}
+
+.read {
+    background-color: #c4b596;
+    border-radius: 20px;
+}
+
+.unread {
+    background-color: rgb(254, 250, 243);
+    border-radius: 20px;
+}
